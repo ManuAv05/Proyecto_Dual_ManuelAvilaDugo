@@ -88,5 +88,8 @@ li{
     border-radius: 0 5px 10px 0;
 }
 .notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-top: 20px;
 }

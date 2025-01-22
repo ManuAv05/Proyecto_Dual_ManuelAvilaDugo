@@ -17,3 +17,21 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3rem;
+    width: 70%;
+    margin: auto;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: contain;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

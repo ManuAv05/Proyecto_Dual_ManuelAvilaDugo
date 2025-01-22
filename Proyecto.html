@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="ProyectoCSS.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aromática</title>
+  <!-- CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Encabezado de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">AROMÁTICA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#acerca">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Decants.html">Decants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogo.html">Catálogo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--bienvenida -->
+<div class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="display-4"><b>Bienvenido a Aromática</b></h1>
+    <p class="lead">Explora nuestras fragancias y consulta nuestras mejores recomendaciones.</p>
+    <a href="#servicios" class="btn btn-danger btn-lg">Nuestro Contacto Para Peticiones Personalizadas</a>
+  </div>
+</div>
+
+<!-- Sección de Acerca de -->
+<section id="acerca" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Acerca de Nosotros</h2>
+    <p class="text-center">Somos un equipo dedicado a ofrecer las mejores recomendaciones sobre perfumes de todo tipo.</p>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img src="source/vanpyrhum.png" alt="Acerca de" class="w-50 img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3>¿Por qué elegirnos?</h3>
+        <p>Con años de experiencia y un enfoque centrado en el cliente, trabajamos para ofrecerte soluciones a medida que cumplen tus necesidades.</p>
+        <ul>
+          <li class="espacio">Ofertamos todo tipo de perfumes, ya pueden ser, perfumes de diseñador, perfumes Nicho o incluso algún perfume exclusivo.</li>
+          <li class="espacio">Soporte técnico dedicado, vamos a ayudarte a que escojas tu perfume ideal con nuestros conocimientos sobre perfumería y nuestra experiencia con esta.</li>
+          <li class="espacio">Ofertas inigualables para productos de gran calidad.</li>
+          <li class="espacio">Fiabilidad, nosotros nunca vamos a estafar a ningún cliente, todos los productos son originales y los precios son razonables.</li>
+          <li class="espacio">!Prueba sin miedo¡, tenemos un apartado exclusivamente para comprar muestras de perfumes por lo que puedes probar el perfume antes de comprarlo.</li>
+          <li class="espacio">Contacta con nosotros sin ningún problema, contamos con un gran servicio de atención al cliente para cualquier duda o problema que os surja.</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Servicios -->
+<section id="servicios" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Nuestras novedades</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">ANGELS' SHARE</h5>
+            <img src="source/kilian.png" alt="novedad" class="w-50 img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">ERBA GOLD</h5>
+            <img src="source/erbagold.webp" alt="novedad" class="w-50 img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">GOD OF FIRE</h5>
+            <img src="source/godoffire.png" alt="novedad" class="w-50 img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Contacto -->
+<section id="contacto" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <form>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="5" placeholder="Tu mensaje"></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-danger">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Pie de página -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.espacio{
+    padding: 19px;
+}
+.imagen1{
+    position: absolute;
+}
+.imagen2{
+    z-index: -1;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 90%;
+    border-radius: 0 5px 10px 0;
+
+}
+.Coco{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 80%;
+
+
+}
+.Dulce{
+    background-color: lightpink;
+    text-align: center;
+    width: 70%;
+    color: white;
+
+}
+.Avainillado{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    width: 60%;
+
+}
+.Acuatico{
+    text-align: center;
+    background-color: lightblue;
+    width: 59%;
+
+}
+.Amaderado{
+    text-align: center;
+    background-color: saddlebrown;
+    color: white;
+    width: 57%;
+
+
+}
+.Aromático{
+    text-align: center;
+    background-color: cadetblue;
+    width: 50%;
+
+}
+.Afrutados{
+    text-align: center;
+    background-color: lightcoral;
+    width: 48%;
+
+}
+.Cálido{
+    text-align: center;
+    background-color: sandybrown;
+    width: 47%;
+    color: white;
+
+}
+.Lactónico{
+    text-align: center;
+    background-color: floralwhite;
+    width: 45%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    margin-top: 20px;
+}

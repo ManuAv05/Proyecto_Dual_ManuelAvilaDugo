@@ -1,0 +1,85 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+
+
+.almizclado{
+    background-color: #e7d8ea;
+    text-align: center;
+    width: 90%;
+
+}
+.atalcado{
+    background-color: #eedecd;
+    text-align: center;
+    width: 88%;
+
+}
+.dulce{
+    text-align: center;
+    background-color: #ef4347;
+    width: 84%;
+    color: white;
+
+
+}
+.afrutado{
+    text-align: center;
+    background-color: #fc664a;
+    width: 75%;
+
+
+}
+.terrosos{
+    text-align: center;
+    background-color: #756b5e;
+    width: 70%;
+
+
+}
+.florales{
+    text-align: center;
+    background-color: #ff84a8;
+    width: 65%;
+}
+.iris{
+    text-align: center;
+    background-color: #c9bde1;
+    width: 60%;
+
+}
+.amaderado{
+    text-align: center;
+    background-color: #9d7956;
+    width: 57%;
+
+}
+
+.verde{
+    text-align: center;
+    background-color: #55ae5f;
+    width: 56%;
+
+}
+
+.ambars{
+    text-align: center;
+    background-color: #d38961;
+    width: 48%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.dulce{
+    text-align: center;
+    background-color: indianred;
+    width: 40%;
+    color: white;
+
+
+}
+.caramelo{
+    text-align: center;
+    background-color: #e7bf8a;
+    width: 40%;
+
+
+}
+.atalcado{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 25%;
+
+
+}
+.avainillado{
+    text-align: center;
+    background-color: #fffec0;
+    width: 70%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

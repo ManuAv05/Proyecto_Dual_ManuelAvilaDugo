@@ -1,0 +1,60 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.calido{
+    background-color: #cc3300;
+    width: 80%;
+}
+.ambars{
+    background-color: #c36029;
+    width: 75%;
+}
+.cacao{
+    background-color: #ac5d39;
+    width:65%;
+}
+.aromatico{
+    background-color: #ac5d39;
+    width: 60%;
+}
+.amaderado{
+    background-color: #9b7552;
+    width: 58%;
+}
+.balsamico{
+    background-color: #c7ab8f;
+    width:50%;
+}
+.dulce{
+    background-color: #f37a7e;
+    width: 48%;
+}
+.pachuli{
+    background-color: #9d9e7b;
+    width: 45%;
+}
+.terrosos{
+    background-color: #979087;
+    width: 43%;
+}
+.ahumado{
+    background-color: #b8b0ba;
+    width: 40%;
+}
+
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

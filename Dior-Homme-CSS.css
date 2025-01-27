@@ -1,0 +1,95 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+
+
+.iris{
+    background-color: mediumpurple;
+    text-align: center;
+    width: 90%;
+
+}
+.atalcado{
+    background-color: navajowhite;
+    text-align: center;
+    width: 70%;
+
+}
+.terrosos{
+    text-align: center;
+    background-color: gray;
+    width: 60%;
+    color: white;
+
+
+}
+.violeta{
+    text-align: center;
+    background-color: blueviolet;
+    width: 59%;
+    color: white;
+
+}
+.Amaderado{
+    text-align: center;
+    background-color: saddlebrown;
+    color: white;
+    width: 80%;
+
+
+}
+.aroma{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    width: 58%;
+}
+.florales{
+    text-align: center;
+    background-color: hotpink;
+    width: 50%;
+
+}
+.lavanda{
+    text-align: center;
+    background-color: lightgray;
+    width: 48%;
+
+}
+.almizclado{
+    text-align: center;
+    background-color: floralwhite;
+    width: 47%;
+
+}
+.afrutado{
+    text-align: center;
+    background-color: lightpink;
+    width: 45%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.dior{
+    height: 400px;
+}
+.dior {
+    height: 400px;
+    object-fit: contain;
+    justify-content: space-between;
+    margin-top: 10%;
+    width: 100%;
+}

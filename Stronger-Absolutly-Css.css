@@ -1,0 +1,83 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+
+
+.avainillado{
+    background-color: #fffec0;
+    text-align: center;
+    width: 80%;
+
+}
+.amaderado{
+    background-color: #7f5023;
+    text-align: center;
+    width: 70%;
+
+}
+.balsamico{
+    text-align: center;
+    background-color: #b8936f;
+    width: 65%;
+    color: white;
+
+
+}
+.ron{
+    text-align: center;
+    background-color: #b9452e;
+    width: 63%;
+
+
+}
+.aromatico{
+    text-align: center;
+    background-color: #5cb19f;
+    width: 61%;
+
+
+}
+.calido{
+    text-align: center;
+    background-color: #d96842;
+    width: 55%;
+}
+.nueces{
+    text-align: center;
+    background-color: #cdb895;
+    width: 45%;
+
+}
+.atalcado{
+    text-align: center;
+    background-color: #f4e9de;
+    width: 43%;
+
+}
+.lavanda{
+    text-align: center;
+    background-color: #efe0f3;
+    width: 42%;
+
+}
+.dulce{
+    text-align: center;
+    background-color: #f5898c;
+    width: 38%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

@@ -1,0 +1,59 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.marino{
+    background-color: #0e529b;
+    width: 87%;
+}
+.aromatico{
+    background-color: #38a089;
+    width: 85%;
+}
+.citrico{
+    background-color: #faff72;
+    width: 70%;
+}
+.salado{
+    background-color: #effffa;
+    width: 65%;
+}
+.fresco{
+    background-color: #aada6c;
+    width: 60%;
+}
+.acuatico{
+    background-color: #9cdeec;
+    width: 57%;
+}
+.ambar{
+    background-color: #d6936d;
+    width: 54%;
+}
+.ozonico{
+    background-color: #dffdfc;
+    width: 51%;
+}
+.verde{
+    background-color: #71bb7a;
+    width: 48%;
+}
+.floral{
+    background-color: #f4f7fc;
+    width: 45%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

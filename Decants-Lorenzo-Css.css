@@ -1,0 +1,65 @@
+ul{
+    list-style-type: none;
+}
+li{
+    color: #838383;
+}
+.color{
+    color: #838383;
+}
+.bordeAbajo{
+    border-bottom: 1px solid #838383;
+}
+.recomendacion{
+    margin-top: 30px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.boton{
+    padding: 10px;
+    border: 1px solid #838383;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.card-body img {
+    height: 300px;
+    object-fit: contain;
+}
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline #838383;
+}
+@media (max-width: 769px){
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .dropdown-content{
+        position: relative;
+    }
+}

@@ -1,0 +1,59 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.amaderado{
+    background-color: #774414;
+    width: 87%;
+}
+.aromatico{
+    background-color: #40a48f;
+    width: 83%;
+}
+.afrutado{
+    background-color: #fc5231;
+    width: 73%;
+}
+.frescoes{
+    background-color: #a2d75f;
+    width: 65%;
+}
+.lavanda{
+    background-color: #eedcf1;
+    width: 63%;
+}
+.citrico{
+    background-color: #faff86;
+    width: 61%;
+}
+.herbal{
+    background-color: #9dc2a9;
+    width: 59%;
+}
+.dulce{
+    background-color: #f48084;
+    width: 56%;
+}
+.calido{
+    background-color: #e18a6d;
+    width: 50%;
+}
+.oud{
+    background-color: #a0968f;
+    width: 49%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

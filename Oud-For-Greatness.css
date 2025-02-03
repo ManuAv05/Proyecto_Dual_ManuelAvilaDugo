@@ -1,0 +1,59 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.calido{
+    background-color: #cc3300;
+    width: 87%;
+}
+.frescoes{
+    background-color: #89cc32;
+    width: 86%;
+}
+.oud{
+    background-color: #5d4b41;
+    width: 83%;
+}
+.lavanda{
+    background-color: #eedcf1;
+    width: 65%;
+}
+.pachuli{
+    background-color: #959671;
+    width: 63%;
+}
+.metalico{
+    background-color: #b9cace;
+    width: 63%;
+}
+.almizclado{
+    background-color: #efe5f1;
+    width: 58%;
+}
+.cuero{
+    background-color: #ac8e85;
+    width: 56%;
+}
+.amaderado{
+    background-color: #b19479;
+    width: 50%;
+}
+.terroso{
+    background-color: #9e978e;
+    width: 49%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

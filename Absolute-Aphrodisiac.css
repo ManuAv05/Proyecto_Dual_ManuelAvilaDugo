@@ -1,0 +1,59 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.avainillado{
+    background-color: #fffec0;
+    width: 87%;
+}
+.cuero{
+    background-color: #895f53;
+    width: 77%;
+}
+.ambar{
+    background-color: #cb7748;
+    width: 67%;
+}
+.atalcado{
+    background-color: #f2e6d9;
+    width: 65%;
+}
+.almizclado{
+    background-color: #eee3f0;
+    width: 63%;
+}
+.animalico{
+    background-color: #ae7e56;
+    width: 63%;
+}
+.ahumado{
+    background-color: #aca3af;
+    width: 58%;
+}
+.dulce{
+    background-color: #f59294;
+    width: 56%;
+}
+.calido{
+    background-color: #e18a6d;
+    width: 50%;
+}
+.amaderado{
+    background-color: #b89d84;
+    width: 49%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

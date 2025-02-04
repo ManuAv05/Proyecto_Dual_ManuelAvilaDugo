@@ -1,0 +1,56 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.amaderado{
+    background-color: #774414;
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+.calido{
+    background-color:#cc3502;
+    text-align: center;
+    width: 79%;
+}
+.dulce{
+    background-color: #ef464b;
+    text-align: center;
+    width: 70%;
+}
+.avainillado{
+    background-color: #fffeca;
+    text-align: center;
+    width: 65%;
+}
+.canela{
+    background-color: #da8649;
+    text-align: center;
+    width: 62%;
+}
+.ambar{
+    background-color: #d79773;
+    text-align: center;
+    width: 40%;
+}
+.atalcado{
+    background-color: #f5ece2;
+    text-align: center;
+    width: 36%;
+}
+
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+
+
+.afrutado{
+    background-color: #fc4b29;
+    text-align: center;
+    width: 80%;
+
+}
+.tropical{
+    background-color: #f7b620;
+    text-align: center;
+    width: 75%;
+
+}
+.dulce{
+    text-align: center;
+    background-color: #f05256;
+    width: 72%;
+
+
+
+}
+.citrico{
+    text-align: center;
+    background-color: #faff83;
+    width: 55%;
+
+
+}
+.calido{
+    text-align: center;
+    background-color: #dc7452;
+    width: 53%;
+
+
+}
+.fresco{
+    text-align: center;
+    background-color: #c1eff4;
+    width: 50%;
+}
+.amaderado{
+    text-align: center;
+    background-color: #ac8d70;
+    width: 48%;
+
+}
+.almizclado{
+    text-align: center;
+    background-color: #f0e7f2;
+    width: 45%;
+
+}
+.terpenico{
+    text-align: center;
+    background-color: #e9c86f;
+    width: 40%;
+
+}
+.ambar{
+    text-align: center;
+    background-color: #da9e7c;
+    width: 39%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

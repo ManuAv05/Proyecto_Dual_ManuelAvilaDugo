@@ -1,0 +1,73 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.dulce{
+    background-color: #ee363b;
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+.citrico{
+    background-color: #f9ff53;
+    text-align: center;
+    width: 79%;
+}
+.tropical{
+    background-color: #f7b620;
+    text-align: center;
+    width: 70%;
+}
+.aromático{
+    background-color: #5cb19f;
+    text-align: center;
+    width: 65%;
+}
+.coco{
+    background-color: #f5eedf;
+    text-align: center;
+    width: 62%;
+}
+.afrutado{
+    background-color: #fd7c63;
+    text-align: center;
+    width: 58%;
+}
+.amaderado{
+    background-color: #a58363;
+    text-align: center;
+    width: 58%;
+}
+.avainillado{
+    background-color: #fffed6;
+    text-align: center;
+    width: 57%;
+}
+.lactonico{
+    background-color: #fcfbf6;
+    text-align: center;
+    width: 55%;
+}
+.terrosos{
+    background-color: #989187;
+    text-align: center;
+    width: 53%;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}

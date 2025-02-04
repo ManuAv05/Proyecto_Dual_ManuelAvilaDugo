@@ -1,0 +1,47 @@
+.hombre{
+    color: blue;
+    text-align: center;
+
+}
+.amaderado{
+    background-color: #774414;
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+.atalcado{
+    background-color:#f3e7da;
+    text-align: center;
+    width: 60%;
+}
+.calido{
+    background-color: #de7d5d;
+    text-align: center;
+    width: 55%;
+}
+.balsamico{
+    background-color:#d0b8a0;
+    text-align: center;
+    width: 50%;
+}
+.lactonico{
+    background-color: #fcfbf7;
+    text-align: center;
+    width: 48%;
+}
+
+
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    border-radius: 0 5px 10px 0;
+}
+.notas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}
